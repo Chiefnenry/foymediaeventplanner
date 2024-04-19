@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Foy Media Event Planner</title>
+	<!-- meta tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Event Planner Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+SmartPhone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script type="application/x-javascript">
+addEventListener("load", function() 
+{ 
+	setTimeout(hideURLbar, 0); 
+}, false);
+		function hideURLbar()
+		{ 
+			window.scrollTo(0,1); 
+		} 
+</script>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+	</script>
+
+
+	<!-- //meta tags -->
+	<!-- custom Theme files -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/chocolat.css" rel="stylesheet">
+	<!-- //custom Theme files -->
+
+	<!-- js -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<!-- //js -->
+
+	<!-- web-fonts -->
+	<link
+		href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+		rel='stylesheet' type='text/css'>
+	<link href="//fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
+	<!-- //web-fonts -->
+
+</head>
+
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="header-w3left">
+				<p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+					+1 641 455 8503</p>
+			</div>
+			<div class="header-w3right">
+				<ul>
+					<li><a href="mailto:sample@example.com">
+							<span class="glyphicon glyphicon-envelope" aria-hidden="true">
+							</span> support@foymedia.com</a></li>
+					<li>|</li>
+					<li><a class="scroll" href="#contact">Contact</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- //header -->
+	<!-- navigation -->
+	<div class="navigation">
+		<div class="container">
+			<div class="agileits-logo">
+				<h1><a href="index.html"><span>Event</span>Planner</a></h1>
+			</div>
+			<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="hvr-bounce-to-bottom button"><a href="#about" class="scroll">About<span
+									class="sr-only">(current)</span></a></li>
+						<li class="hvr-bounce-to-bottom button"><a href="#gallery" class="scroll">Gallery</a></li>
+						<li class="hvr-bounce-to-bottom button"><a href="#services" class="scroll">Services</a></li>
+						<li class="hvr-bounce-to-bottom button"><a href="#team" class="scroll">Team</a></li>
+					</ul>
+					<!-- <div class="social-icons">
+						<ul>
+							<li><a href="#" class="f1"></a></li>
+							<li><a href="#" class="f2"></a></li>
+							<li><a href="#" class="f3"></a></li>
+							<li><a href="#" class="f4"></a></li>
+						</ul>
+					</div> -->
+					<div class="clearfix"></div>
+				</div><!-- /.navbar-collapse -->
+			</nav>
+		</div>
+	</div>
+	<!-- //navigation -->
+	<!-- banner -->
+	<div class="banner">
+		<div class="container">
+			<script src="js/responsiveslides.min.js"></script>
+			<script>
+				// You can also use "$(window).load(function() {"
+				$(function () {
+					// Slideshow 4
+					$("#slider3").responsiveSlides({
+						auto: true,
+						pager: true,
+						nav: false,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+							$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+						}
+					});
+				});
+			</script>
+			<div id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="banner-agileinfo">
+							<h3>WELCOME</h3>
+							<h4>Event planning & wedding coordination</h4>
+						</div>
+					</li>
+					<li>
+						<div class="banner-agileinfo">
+							<h3>WELCOME</h3>
+							<h4>Follow new ideas for your wedding</h4>
+						</div>
+					</li>
+					<li>
+						<div class="banner-agileinfo">
+							<h3>WELCOME</h3>
+							<h4>We help you plan your special day</h4>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div id="about" class="about">
+		<div class="container">
+			<h3 class="w3ls-tittle">About</h3>
+			<h5>The nature of our business, I'm an event promoter and event planner for ceremonies.</h5>
+			<div class="about-grids">
+				<div class="col-md-5 abt-left">
+					<img src="images/g1.jpg" alt="" />
+				</div>
+				<div class="col-md-7 abt-right">
+					<h4>What we do</h4>
+					<p>These are some of the services we render to our beautiful people events services, weddings,
+						festivals, Carnivals, Beach parties events and lots more regarding
+						planning..</p>
+					<!-- <p> Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe possimus,
+						omnis voluptas assumenda est, omnis dolor repellendus rerum necessitatibus saepe possimus,
+						omnis voluptas assumenda est, omnis dolor repellendus</p> -->
+
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //about -->
+	<!-- services -->
+	<div id="services" class="services">
+		<div class="container">
+			<h2 class="w3ls-tittle">Services</h2>
+			<div class="services-grids w3layouts-grids">
+				<div class="col-md-6 services-left">
+					<div class="serw3agile-grid">
+						<span class="hi-icon hi-icon-archive glyphicon glyphicon-check"> </span>
+					</div>
+					<div class="ser-agiletop">
+						<h4>Wedding Planning</h4>
+						<p>
+							We help you in bringing your beautiful wedding plans idea into reality and gives you the
+							best and quality wedding event.
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 services-left">
+					<div class="serw3agile-grid">
+						<span class="hi-icon hi-icon-archive glyphicon glyphicon-music"> </span>
+					</div>
+					<div class="ser-agiletop">
+						<h4>House Decoration</h4>
+						<p>
+							We give the best house decoration both interior and exterior design.
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 services-left">
+					<div class="serw3agile-grid">
+						<span class="hi-icon hi-icon-archive glyphicon glyphicon-picture"> </span>
+					</div>
+					<div class="ser-agiletop">
+						<h4>Carnivals</h4>
+						<p>
+							Having a carnival is a beautiful thing, we can make it work out and give you the best of it
+							as you want it.
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 services-left">
+					<div class="serw3agile-grid">
+						<span class="hi-icon hi-icon-archive glyphicon glyphicon-heart-empty"> </span>
+					</div>
+					<div class="ser-agiletop">
+						<h4>Festivals</h4>
+						<p>
+							Also your yearly festival can be done with lot of beautiful things, feel free to get in
+							touch with us for the utmost unforgottable festivals.
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+	<!-- gallery -->
+	<div id="gallery" class="gallery">
+		<div class="container">
+			<h3 class="w3ls-tittle">Gallery</h3>
+			<div class="gallery-wthreegrids">
+				<!-- EIGHTH EXAMPLE -->
+				<div class="view view-eighth">
+					<a href="images/g1.jpg" title="Image Title"><img src="images/g1.jpg" alt="" />
+						<div class="w3lmask">
+							<h4> Event Decoration </h4>
+							<p>We didn't make the plan of this event but we did the decoration.</p>
+						</div>
+					</a>
+				</div>
+				<div class="view view-eighth">
+					<a href="images/g2.jpg" title="Image Title"><img src="images/g2.jpg" alt="" />
+						<div class="w3lmask">
+							<h4> Wedding Planner </h4>
+							<p>We plan the wedding of Mr&Mrs Josh and aftermath of the wedding was so impressive to
+								them.</p>
+						</div>
+					</a>
+				</div>
+				<div class="view view-eighth">
+					<a href="images/g3.jpg" title="Image Title"><img src="images/g3.jpg" alt="" />
+						<div class="w3lmask">
+							<h4> Dinner Decoration </h4>
+							<p>We decorated the dinner date for the company.</p>
+						</div>
+					</a>
+				</div>
+				<div class="view view-eighth">
+					<a href="images/g4.jpg" title="Image Title"><img src="images/g4.jpg" alt="" />
+						<div class="w3lmask">
+							<h4> Wedding Plan </h4>
+							<p>Another beautiful of our work.</p>
+						</div>
+					</a>
+				</div>
+				<div class="view view-eighth">
+					<a href="images/g5.jpg" title="Image Title"><img src="images/g5.jpg" alt="" />
+						<div class="w3lmask">
+							<h4> Beach Party </h4>
+							<p>This was an engagement proposal done at the beach.</p>
+						</div>
+					</a>
+				</div>
+				<div class="view view-eighth">
+					<a href="images/g6.jpg" title="Image Title"><img src="images/g6.jpg" alt="" />
+						<div class="w3lmask">
+							<h4> Wedding Planner </h4>
+							<p>Another wedding done on the street.</p>
+						</div>
+					</a>
+				</div>
+				<div class="view view-eighth">
+					<a href="images/g7.jpg" title="Image Title"><img src="images/g7.jpg" alt="" />
+						<div class="w3lmask">
+							<h4> Dinner Planner </h4>
+							<p>Decorated this dinner date for family.</p>
+						</div>
+					</a>
+				</div>
+				<div class="view view-eighth">
+					<a href="images/g8.jpg" title="Image Title"><img src="images/g8.jpg" alt="" />
+						<div class="w3lmask">
+							<h4> Wedding Planner </h4>
+							<p>They enjoyed the wedding.</p>
+						</div>
+					</a>
+				</div>
+				<div class="view view-eighth">
+					<a href="images/g2.jpg" title="Image Title"><img src="images/g2.jpg" alt="" />
+						<div class="w3lmask">
+							<h4> Wedding Planner </h4>
+							<p>We planned this wedding for them and they really loved it.</p>
+						</div>
+					</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<script src="js/jquery.chocolat.js"></script>
+			<!-- light-box-files -->
+			<script type="text/javascript">
+				$(function () {
+					$('.gallery a').Chocolat();
+				});
+			</script>
+		</div>
+	</div>
+	<!-- //gallery -->
+	<!-- team -->
+	<div id="team" class="team">
+		<div class="container">
+			<h3 class="w3ls-tittle t-team">Our Team</h3>
+			<ul class="ch-grid">
+				<li>
+					<div class="ch-item ch-img-1 agileits-w3layouts">
+						<div class="ch-info-wrap">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-1"></div>
+								<div class="ch-info-back">
+									<h4>Victoria</h4>
+									<p><a href="#" class="f1"></a></p>
+									<p><a href="#" class="f2"></a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="ch-item ch-img-2 agileits-w3layouts">
+						<div class="ch-info-wrap">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-2"></div>
+								<div class="ch-info-back">
+									<h4>William</h4>
+									<p><a href="#" class="f1"></a></p>
+									<p><a href="#" class="f2"></a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="ch-item ch-img-3 agileits-w3layouts">
+						<div class="ch-info-wrap">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-3"></div>
+								<div class="ch-info-back">
+									<h4>Thompson</h4>
+									<p><a href="#" class="f1"></a></p>
+									<p><a href="#" class="f2"></a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="ch-item ch-img-4 agileits-w3layouts">
+						<div class="ch-info-wrap">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-4"></div>
+								<div class="ch-info-back">
+									<h4>John Doe</h4>
+									<p><a href="#" class="f1"></a></p>
+									<p><a href="#" class="f2"></a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- //team -->
+	<!-- contact -->
+	<div class="contact-form" id="contact-form">
+		<div class="container">
+			<h3 class="w3ls-tittle">Contact</h3>
+			<div class="col-md-7 contact-left">
+				<h3>Contact Form</h3>
+				<form id="contact-form-main">
+					<input type="text" name="user_name" placeholder="Name" required="">
+					<input type="email" name="user_email" placeholder="Email" required="">
+					<!-- <input type="text" name="contact_number" placeholder="Telephone" required=""> -->
+					<textarea name="message" placeholder="Message" required=""></textarea>
+					<!-- Add a hidden field for contact_number -->
+					<!-- <input type="hidden" name="contact_number"> -->
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			<div class="col-md-5 contact-left">
+				<h3>Address</h3>
+				<p> Event Planner </p>
+				<ul>
+					<li>609 S HANCOCK ST</li>
+					<li>OTTUMWA, IA 52501</li>
+					<li>+1 641 455 8503</li>
+					<li>Phone : +1 641 455 8503</li>
+					<li>Mail : <a href="mailto:support@foymedia.com">support@foymedia.com</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //contact -->
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-left agileits-w3layouts">
+				<p>&copy; 2021 FOY Media. All Rights Reserved | Design by <a
+						href="https://charles-portfolio-rho.vercel.app/"> Charles Omosegbon</a></p>
+			</div>
+			<!-- <div class="footer-right">
+				<ul>
+					<li><a href="#" class="f1"></a></li>
+					<li><a href="#" class="f2"></a></li>
+					<li><a href="#" class="f3"></a></li>
+					<li><a href="#" class="f4"></a></li>
+				</ul>
+			</div> -->
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //footer -->
+	<script src="js/smoothscroll.min.js"></script>
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+
+	<script type="text/javascript">
+		(function () {
+			// https://dashboard.emailjs.com/admin/account
+			emailjs.init('dDSYyeA4gkHhzaREk');
+
+		})();
+	</script>
+	<script type="text/javascript">
+		window.onload = function () {
+			document.getElementById('contact-form-main').addEventListener('submit', function (event) {
+				event.preventDefault();
+
+				// generate a five digit number for the contact_number variable
+				// this.contact_number.value = Math.random() * 100000 | 0;
+				// these IDs from the previous steps
+
+
+
+				emailjs.sendForm('service_x027kdc', 'template_42q7czj', this)
+					.then(function () {
+						console.log('SUCCESS!');
+					}, function (error) {
+
+						console.log('FAILED...', error);
+					});
+			});
+		}
+	</script>
+
+
+	<!-- //smooth-scrolling-of-move-up -->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/bootstrap.js"></script>
+</body>
+
+</html>
